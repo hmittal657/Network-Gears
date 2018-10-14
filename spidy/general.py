@@ -6,7 +6,7 @@ def create_project_dir(directory):
 		print "Creating project ",directory
 		os.makedirs(directory)
 
-# create_project_dir("thenewboston")
+# create_project_dir("directoryName")
 def create_data_files(project_name,base_url):
 	queue = project_name + '/queue.txt'
 	crawled = project_name + '/crawled.txt'
